@@ -1,0 +1,111 @@
+body {
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
+	background-color: #d9d9d9
+}
+
+h1 {
+	color: #ffffff;
+	font-family: Gagalin;
+}
+
+h2 {
+	color: #010101;
+	font-family: Gagalin;
+}
+
+h3 {
+	color: #dc701b;
+	font-family: Chivo;
+}
+
+a {
+	color: #a87332;
+	font-weight: bold;
+	text-decoration: none;
+	transition: .3s;
+}
+
+p {
+	color: #000000;
+	opacity: 100;
+	font-family: Chewy;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1612404806601-891ab0849ed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdvbmZsYWJsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60');
+	background-size: 35%;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 45px;
+	margin: 0;
+}
+
+.banner p {
+	color: white;
+	font-size: 24px;
+}
+
+.button-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.button-blue:hover {
+	background-color: #1557EB;
+	color: white;
+}
+
+.card-white {
+	background: withe;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 200px;
+	text-align: center;
+	padding: 24px;
+	margin: 8px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card-white h3 {
+	margin-bottom: 0;
+}
+
+.footer {
+	background: #5bb48d;
+	text-align: center;
+	padding: 24px 0;
+}
+
+.footer p {
+	color: #ffffff;
+	font-family: Chewy;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}/* Write some CSS below */
